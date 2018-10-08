@@ -1,7 +1,47 @@
-
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .teaser {
+    height: 650px;
+    width: auto;
     border: 1px solid black;
-padding: 8px 12px;
-background: darkcyan;
-text-decoration: none;
+    padding: 8px 12px;
+    /* background-image: url(http://cdn2.architektura.smcloud.net/t/photos/t/34985/lublin-csk-0208mc-copy_167789.jpg); */
+    background-image: url('lublin-csk.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: darkcyan;
+    text-align: center;
+}
+
+.features-banner {
+    width: 600px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    background: darkcyan;
+    text-decoration: none;
+}
+
+.features {
+    width: 600px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    background: darkcyan;
+    text-decoration: none;
+}
+
+.team {
+    width: 600px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    background: darkcyan;
+    text-decoration: none;
+}
+
+.form {
+    width: 600px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    background: darkcyan;
+    text-decoration: none;
 }

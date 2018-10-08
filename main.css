@@ -1,6 +1,15 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.menu--banner {
+    width: 600px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    /* background: darkcyan; */
+    text-decoration: none;
+}
+
 .teaser {
     height: 650px;
     width: auto;
@@ -39,6 +48,14 @@ body {
 }
 
 .form {
+    width: 600px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    background: darkcyan;
+    text-decoration: none;
+}
+
+.stopka {
     width: 600px;
     border: 1px solid black;
     padding: 8px 12px;

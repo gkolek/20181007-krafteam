@@ -12,20 +12,22 @@
 
 <body>
 
-    <header>Strona krafTeam</header>
+    <header class="site-title">
+        Strona krafTeam
+    </header>
 
     <div class="menu--banner">
-        <img src="images/isa-logo.png" alt="logo iSA" width="100px">
-        <a href="#">
+        <img class="logo--position" src="images/isa-logo.png" alt="logo iSA" width="100px">
+        <a class="menu--position" href="#">
             <span>Home</span>
         </a>
-        <a href="#">
+        <a class="menu--position" href="#">
             <span>Feature</span>
         </a>
-        <a href="#">
+        <a class="menu--position" href="#">
             <span>O nas</span>
         </a>
-        <a href="#">
+        <a class="menu--position" href="#">
             <span>Kontakt</span>
         </a>
     </div>
@@ -33,27 +35,45 @@
     <section class="teaser">
         Teaser
         <h1>Znajdź event w Lublinie!</h1>
-        <h3>Dzięki naszej stronie znajdziesz wszystkie eventy tetralne i filmowe w naszym mieście!</h3>
-        <button>Wyślij zapytanie</button>
+        <h3>Dzięki naszej stronie znajdziesz wszystkie eventy tetralne i kinowe w naszym mieście!</h3>
+        <button>Podaj swój e-mail</button>
     </section>
 
-    <section class="features-banner">Funkcje-banner</section>
-    <main class="features">Funkcje-więcej</main>
-    <section class="team">Zespół</section>
-    <form class="form" action="form">
+    <section class="features-banner">Funkcje (banner)</section>
+
+    <main class="features">Funkcje (więcej)</main>
+
+    <section class="team">
+        Zespół
+        <div>
+            <span>
+                <img class="team__faces" src="images/bugs-bunny.jpg" alt="królik bugs">
+            </span>
+            <span>
+                <img class="team__faces" src="images/daffy.jpg" alt="kaczor duffy">
+            </span>
+            <span>
+                <img class="team__faces" src="images/coyote.png" alt="kojot">
+            </span>
+        </div>
+    </section>
+
+    <form class="formular" action="form">
         <!-- Formularz -->
 
         <span>
             <label for="user-email">Twój e-mail</label>
         </span>
         <span>
-            <input type="email" name="user-email" id="user-email" placeholder="jan@kowalski.pl" required>
+            <input class="formular__email-window" type="email" name="user-email" id="user-email" placeholder="jan@kowalski.pl"
+                required>
         </span>
         <span>
             <input type="submit" value="Wyślij">
         </span>
 
     </form>
+
     <footer class="stopka">Stopka</footer>
 
 </body>

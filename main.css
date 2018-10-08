@@ -1,18 +1,37 @@
 body {
+    background-color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.site-title {
+    color: darkcyan;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 12px;    
 }
+
 
 .menu--banner {
     width: 600px;
     border: 1px solid black;
     padding: 8px 12px;
-    /* background: darkcyan; */
+    background: darkcyan;
     text-decoration: none;
+    /* text-align: center; */
+}
+
+.logo--position {
+    padding-left: 16px;
+}
+
+.menu--position {
+    padding-left: 16px;
+    text-align: center;
 }
 
 .teaser {
-    height: 650px;
-    width: auto;
+    width: 600px;
+    height: 600px;
     border: 1px solid black;
     padding: 8px 12px;
     /* background-image: url(http://cdn2.architektura.smcloud.net/t/photos/t/34985/lublin-csk-0208mc-copy_167789.jpg); */
@@ -47,13 +66,22 @@ body {
     text-decoration: none;
 }
 
-.form {
+.team__faces {
+    height: 100px;
+}
+
+.formular {
     width: 600px;
     border: 1px solid black;
     padding: 8px 12px;
     background: darkcyan;
     text-decoration: none;
 }
+
+.formular__email-window {
+}
+
+.form__user
 
 .stopka {
     width: 600px;

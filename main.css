@@ -10,12 +10,43 @@ body {
     padding: 8px 12px;    
 }
 
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25.00%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50.00%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75.00%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100.00%; }
+
+[class *="col-"] {
+    float: left;
+    /* padding: 8px 12px; */
+    /* border: 2px solid darkcyan;
+    border-right: 2px solid cyan;
+    border-bottom: 2px solid cyan; */
+  }
+
 
 .menu--banner {
     width: 600px;
     border: 1px solid black;
-    padding: 8px 12px;
+    padding: 8px 12px;;
     background: darkcyan;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+.menu--banner2 {
+    width: 600px;
+    height: 24px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    background: cyan;
     text-decoration: none;
     /* text-align: center; */
 }
@@ -60,9 +91,19 @@ body {
 
 .team {
     width: 600px;
+    height: 120px;
     border: 1px solid black;
     padding: 8px 12px;
     background: darkcyan;
+    text-decoration: none;
+}
+
+.team2 {
+    width: 600px;
+    height: 120px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    background: cyan;
     text-decoration: none;
 }
 
@@ -78,10 +119,6 @@ body {
     text-decoration: none;
 }
 
-.formular__email-window {
-}
-
-.form__user
 
 .stopka {
     width: 600px;

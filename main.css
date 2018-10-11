@@ -1,7 +1,7 @@
 body {
     background-color: azure;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    font-family: 'Courier New', Courier, monospace
+}
 
 .site-title {
     color: darkcyan;
@@ -43,7 +43,7 @@ body {
 
 .menu--banner2 {
     width: 600px;
-    height: 24px;
+    height: 20px;
     border: 1px solid black;
     padding: 8px 12px;
     background: cyan;
@@ -119,19 +119,61 @@ body {
     text-decoration: none;
 }
 
-
 .stopka {
     width: 600px;
+    height: 180px;
     border: 1px solid black;
-    padding: 8px 12px;
+    padding: 24px;
+    padding-right: 0px;
     background: darkcyan;
     text-decoration: none;
+    font-size: 24px;
+}
+
+.mapka {
+    /* padding-left: 20px; */
+}
+
+/* .kontakty {
+    float: left;
+} */
+
+.stopka__lista {
+    list-style: none;
+    font-size: 16px;
+    padding-top: 8px;
 }
 
 
 
 
-#ja-mainnav li { /* all list items */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #ja-mainnav li { /* all list items */
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -145,4 +187,4 @@ ul, menu, dir {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
+} */
